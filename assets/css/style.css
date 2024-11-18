@@ -1,0 +1,11 @@
+body{
+    background-color: gainsboro;
+}
+.boxprincipal{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100hv;
+    color: #1d1b1b;
+}

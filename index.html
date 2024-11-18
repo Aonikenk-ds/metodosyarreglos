@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos y arreglos</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div class="boxprincipal">
+        <div>
+            <h2>Todo List</h2>
+            <hr>
+            <div>
+                <h4>Nueva tarea</h4>
+                <div>
+                    <input class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="nuevaTarea" type="text">
+                    <button class="btn" id="agregarTarea">Agregar tarea</button>
+                </div>
+            </div>
+            <div>
+                <div class="acumul-tareas col-md-3">
+                    <p>Total: <span class="total"></span></p>
+                    <p>Realizadas: <span class="realizadas"></span></p>
+                </div>
+                <div class="prog-tareas col-md-9">
+                    <h4>Tareas programadas:</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">ID</th>
+                                <th style="width: 50%;" scope="col">Tarea</th>
+                                <th style="text-align:star;" scope="col"></th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody id="tareas">
+                 
+                        </tbody>
+                    </table>
+                    <tr id="tareas">
+
+                    </tr>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+
+ 
+</body>
+</html>
